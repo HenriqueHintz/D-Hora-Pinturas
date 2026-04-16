@@ -85,9 +85,8 @@ export default function Footer() {
             </a>
           </div>
 
-          <div className="text-sm text-center space-y-1">
+          <div className="text-sm text-center">
             <p>&copy; {new Date().getFullYear()} D'Hora Pinturas & Limpezas. Todos os direitos reservados.</p>
-            <p className="text-neutral-500">CNPJ: 42.096.334/0001-50</p>
           </div>
         </div>
       </div>
