@@ -69,15 +69,10 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="pt-8 border-t border-neutral-800 flex flex-col md:flex-row justify-between items-center gap-6">
-          <div className="text-sm text-center md:text-left space-y-1">
-            <p>&copy; {new Date().getFullYear()} D'Hora Pinturas & Limpezas. Todos os direitos reservados.</p>
-            <p className="text-neutral-500">CNPJ: 42.096.334/0001-50</p>
-          </div>
-
+        <div className="pt-8 border-t border-neutral-800 flex flex-col items-center justify-center gap-6">
           {/* Developer Signature */}
-          <div className="flex items-center gap-2.5 text-xs sm:text-sm bg-neutral-800/40 px-4 py-2.5 rounded-full border border-neutral-700/50 hover:bg-neutral-800 transition-colors">
-            <span className="text-neutral-500 hidden sm:inline">Desenvolvedor |</span>
+          <div className="flex items-center gap-2.5 text-xs sm:text-sm bg-neutral-800/40 px-5 py-2.5 rounded-full border border-neutral-700/50 hover:bg-neutral-800 transition-colors">
+            <span className="text-neutral-500">Desenvolvedor |</span>
             <span className="text-neutral-300">Created by</span>
             <a href="https://github.com/HenriqueHintz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 group ml-1">
               <img 
@@ -88,6 +83,11 @@ export default function Footer() {
               />
               <span className="text-white group-hover:text-secondary-400 transition-colors font-medium">@henriquehtz</span>
             </a>
+          </div>
+
+          <div className="text-sm text-center space-y-1">
+            <p>&copy; {new Date().getFullYear()} D'Hora Pinturas & Limpezas. Todos os direitos reservados.</p>
+            <p className="text-neutral-500">CNPJ: 42.096.334/0001-50</p>
           </div>
         </div>
       </div>
