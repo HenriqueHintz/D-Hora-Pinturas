@@ -135,7 +135,23 @@ export default function Header() {
         </div>
 
         {/* Menu Content */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full px-8">
+        <div className="relative z-10 flex flex-col items-center justify-center h-full px-8 pt-4 pb-12">
+          {/* Menu Branding (Logo & Name) */}
+          <div 
+            className={`flex flex-col items-center mb-8 transition-all duration-500 ${
+              isMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
+            }`}
+            style={{ transitionDelay: isMenuOpen ? '80ms' : '0ms' }}
+          >
+            <img
+              src="/assets/logo 01.png"
+              alt="D'Hora Pinturas"
+              className="h-20 w-20 rounded-full object-cover shadow-sm ring-2 ring-primary-500/20 mb-3"
+            />
+            <span className="font-serif font-bold text-2xl text-neutral-900 leading-tight tracking-tight">D'Hora</span>
+            <span className="text-[0.65rem] font-bold text-neutral-500 tracking-[0.2em] mt-0.5">PINTURAS & LIMPEZAS</span>
+          </div>
+
           <nav className="flex flex-col items-center gap-2">
             {navLinks.map((link, index) => (
               <a
