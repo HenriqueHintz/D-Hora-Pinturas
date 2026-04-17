@@ -74,7 +74,7 @@ export default function Footer() {
           <div className="flex items-center gap-2.5 text-xs sm:text-sm bg-neutral-800/40 px-5 py-2.5 rounded-full border border-neutral-700/50 hover:bg-neutral-800 transition-colors">
             <span className="text-neutral-500">Desenvolvedor |</span>
             <span className="text-neutral-300">Created by</span>
-            <a href="https://github.com/HenriqueHintz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 group ml-1">
+            <a href="https://www.instagram.com/henriquehtz/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 group ml-1">
               <img 
                 src="https://github.com/HenriqueHintz.png" 
                 alt="Henrique Hintz" 
